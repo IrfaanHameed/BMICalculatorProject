@@ -53,14 +53,9 @@ public class BMI {
         System.out.println(" ");
         float bmi = ComputeBMI();
         System.out.println("Your bmi is : "+ bmi);
+   }
 
-
-
-
-
-    }
-
-    public  String DisplayMessage(){
+    public void DisplayMessage(){
         String message = " ";
         float bmi = ComputeBMI();
         if(bmi < 18.5){
@@ -76,12 +71,6 @@ public class BMI {
         }else if(bmi > 40){
             message = "Morbidly Obese";
         }
-
-
-
-        System.out.println("You are "+ message);
-
-
-        return message;
+         System.out.println("You are "+ message);
     }
 }
